@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("get-in-the-hole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61a9945959ceddaa248d2ae9ac4e937fb5a35db5")]
 [assembly: System.Reflection.AssemblyProductAttribute("get-in-the-hole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("get-in-the-hole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

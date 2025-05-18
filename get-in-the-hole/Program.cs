@@ -1,5 +1,6 @@
 ﻿namespace get_in_the_hole;
 using System;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 
 class Program
@@ -9,7 +10,8 @@ class Program
 
     static void Main(string[] args)
     {
-        
+        Console.CursorVisible = false;
+
         DisplayBox(width, height);
 
         var rand = new Random();
@@ -24,13 +26,31 @@ class Program
         int origRow = Console.CursorTop;
         int origCol = Console.CursorLeft;
 
+        var bucket = new Bucket();
+        bucket.DisplayBuck();
 
+        ConsoleKeyInfo input;
+
+        // input = Console.ReadKey();
+        // Console.WriteLine(input.Key);
+
+        do {
+            //true intercepts so it is not displayed in console
+            input = Console.ReadKey(true);
+            //RightArrow / LeftArrow --- to String
+            if (input.Key.ToString() == "RightArrow") {
+                bucket.MoveBuck("right");
+            }
+            if (input.Key.ToString() == "LeftArrow") {
+                bucket.MoveBuck("left");
+            }
+        } while (input.Key.ToString() != "Escape");
         // Console.WriteLine(origRow.ToString());
         // Console.WriteLine(origCol.ToString());
         // Console.WriteLine(origRow.ToString());
-        // Console.SetCursorPosition(1, 18);
+        // Console.SetCursorPosition(60, 18);
         // Console.Write("H");
-        Console.ReadKey();
+        //Console.ReadKey();
         
     }
 
@@ -71,6 +91,44 @@ class Program
             y = 1;
         }
     }
+    
+    class Bucket {
+        private static int x = 1;
+        readonly static int y = height - 2;
+
+        public void DisplayBuck() {
+        //1 to 60 is range inside box but takes 3 spots to display buck so - 1
+            if (x > 0 && x < width - 1) {
+                Console.SetCursorPosition(x, y);
+                Console.Write("\\");
+                Console.Write("_");
+                Console.Write("/");
+            }
+        }
+
+        public void ClearBuck() {
+            Console.SetCursorPosition(x, y);
+            Console.Write(" ");
+            Console.Write(" ");
+            Console.Write(" ");
+        }
+
+        public void MoveBuck(string direction) {
+            if (direction == "right" && x < width - 2) {
+                ClearBuck();
+                x++;
+                DisplayBuck();
+            }
+
+            if (direction == "left" && x > 1) {
+                ClearBuck();
+                x--;
+                DisplayBuck();
+            }
+        }
+
+    }
+
 
     static void DisplayBox(int width, int height) {
 

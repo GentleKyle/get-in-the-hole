@@ -12,3 +12,4 @@ C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-
 C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.pdb
 C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.genruntimeconfig.cache
 C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\ref\get-in-the-hole.dll
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.sourcelink.json
