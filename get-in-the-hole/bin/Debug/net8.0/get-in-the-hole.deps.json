@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "get-in-the-hole/1.0.0": {
+        "runtime": {
+          "get-in-the-hole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "get-in-the-hole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

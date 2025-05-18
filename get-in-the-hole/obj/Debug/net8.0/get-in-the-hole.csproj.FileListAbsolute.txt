@@ -1,0 +1,14 @@
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\bin\Debug\net8.0\get-in-the-hole.exe
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\bin\Debug\net8.0\get-in-the-hole.deps.json
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\bin\Debug\net8.0\get-in-the-hole.runtimeconfig.json
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\bin\Debug\net8.0\get-in-the-hole.dll
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\bin\Debug\net8.0\get-in-the-hole.pdb
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.AssemblyInfoInputs.cache
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.AssemblyInfo.cs
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.csproj.CoreCompileInputs.cache
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.dll
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\refint\get-in-the-hole.dll
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.pdb
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\get-in-the-hole.genruntimeconfig.cache
+C:\Users\kylep\Documents\Tensure Apprenticeship\C# Practice\get-in-the-hole\get-in-the-hole\obj\Debug\net8.0\ref\get-in-the-hole.dll
